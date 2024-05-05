@@ -63,7 +63,7 @@ INSERT INTO `clientes` (`ClienteID`, `Nombre`, `Direccion`, `CorreoElectronico`)
 --
 
 CREATE TABLE `detallespedidos` (
-  `DetallePedidoID` int(11) NOT NULL,
+  `DetallePedidoID` int NOT NULL AUTO_INCREMENT,
   `PedidoID` int(11) NOT NULL,
   `ProductoID` int(11) NOT NULL,
   `Cantidad` int(11) NOT NULL
